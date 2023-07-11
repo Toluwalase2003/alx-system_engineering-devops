@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name '.'|wc-| -type d -not 
+find. -type d -not -name . |wc-| 
